@@ -1,0 +1,61 @@
+html, body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 1, 75);
+}
+.container {
+    border-radius: 15px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.form-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px 40px 0px;
+    column-gap: 10px;
+}
+.name1 {
+    grid-column: 1;
+}
+.name3, .name4, .name5, .name6, .name7 {
+    display: grid;
+    grid-template-rows: auto;
+    grid-column: span 2;
+    row-gap: 0px;
+}
+input[type=text], input[type=email], input[type=password]  {
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 10px;
+    margin: 5px 0;
+}
+.submit-button {    
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px 20px;
+}
+button {
+    color: white;
+    background-color: #f13000;
+    border-radius: 35px;
+    padding: 14px 0;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+}
+.icon {
+    border-radius: 15px;
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 1, 97);
+    background-color: #03cdff;
+}
