@@ -78,13 +78,13 @@ function checkInputs() {
 function setErrorFor(input, message) {
 	const formControl = input.parentElement;
 	const small = formControl.querySelector('small');
-	formControl.className = ` ${input.getAttribute('id')} form-control error`;
+	formControl.className = `${input.getAttribute('id')} form-control error`;
 	small.innerText = message;
 }
 
 function setSuccessFor(input) {
 	const formControl = input.parentElement;
-	formControl.className = 'form-control success';
+	formControl.className = `${input.getAttribute('id')} form-control success`;
 }
 	
 function isEmail(email) {
