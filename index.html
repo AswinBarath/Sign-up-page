@@ -20,32 +20,53 @@
 
 <body>
     <div id="error"></div>
-    <form action="/" method="GET">
+    <form id="form" action="/" method="GET">
         <div class="container">
             <div class="icon">
                 <i class="fas fa-user-circle"></i>
             </div>
             <div class="form-container">
-                <div class="first-name">
-                    <input id="first-name" name="first-name" type="text" placeholder="First Name"><br>
+                <div class="first_name form-control">
+                    <input id="first_name" name="firstname" type="text" placeholder="First Name"><br>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
                 </div>
-                <div class="last-name">
-                    <input id="last-name" name="last-name" type="text" placeholder="Last Name"><br>
+                <div class="last_name form-control">
+                    <input id="last_name" name="lastname" type="text" placeholder="Last Name"><br>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
                 </div>
-                <div class="user-name">
-                    <input id="user-name" name="user-name" type="text" placeholder="Username"><br>
+                <div class="user_name form-control">
+                    <input id="user_name" name="username" type="text" placeholder="Username" autocomplete="username">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small><br>
                 </div>
-                <div class="email">
-                    <input id="email" name="email" type="email" placeholder="Email" name="email" required><br>
+                <div class="email form-control">
+                    <input id="email" name="email" type="email" placeholder="Email" name="email" autocomplete="username">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small><br>
                 </div>
-                <div class="password-1">
-                    <input id="password-1" name="password-1" type="password" placeholder="Password" minlength="8"><br>
+                <div class="password_1 form-control">
+                    <input id="password_1" name="password1" type="password" placeholder="Password" minlength="8" autocomplete="new-password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small><br>
                 </div>
-                <div class="password-2">
-                    <input id="password-2" name="password-2" type="password" placeholder="Confirm Password" minlength="8"><br>
+                <div class="password_2 form-control">
+                    <input id="password_2" name="password2" type="password" placeholder="Confirm Password" minlength="8" autocomplete="new-password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small><br>
                 </div>
-                <div class="number">
-                    <input id="number" name="number" type="text" placeholder="Phone Number"><br>
+                <div class="number form-control">
+                    <input id="number" name="number" type="text" placeholder="Phone Number">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small><br>
                 </div>
             </div>
             <div class="submit-button">
