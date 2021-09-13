@@ -20,10 +20,10 @@ html, body {
     padding: 10px 40px 0px;
     column-gap: 10px;
 }
-.name1 {
+.first-name {
     grid-column: 1;
 }
-.name3, .name4, .name5, .name6, .name7 {
+.user-name, .email, .password-1, .password-2, .number {
     display: grid;
     grid-template-rows: auto;
     grid-column: span 2;

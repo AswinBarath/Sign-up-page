@@ -2,49 +2,59 @@
 <html lang="en">
 
 <head>
+    <!-- Meta information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up</title>
+    <!-- Title of the website -->
+    <title>Sign up page</title>
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
         integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!-- Icon -->
     <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <!-- Script file: (defer - Loads after the HTML body is rendered) -->
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="icon">
-            <i class="fas fa-user-circle"></i>
+    <div id="error"></div>
+    <form action="/" method="GET">
+        <div class="container">
+            <div class="icon">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="form-container">
+                <div class="first-name">
+                    <input id="first-name" name="first-name" type="text" placeholder="First Name"><br>
+                </div>
+                <div class="last-name">
+                    <input id="last-name" name="last-name" type="text" placeholder="Last Name"><br>
+                </div>
+                <div class="user-name">
+                    <input id="user-name" name="user-name" type="text" placeholder="Username"><br>
+                </div>
+                <div class="email">
+                    <input id="email" name="email" type="email" placeholder="Email" name="email" required><br>
+                </div>
+                <div class="password-1">
+                    <input id="password-1" name="password-1" type="password" placeholder="Password" minlength="8"><br>
+                </div>
+                <div class="password-2">
+                    <input id="password-2" name="password-2" type="password" placeholder="Confirm Password" minlength="8"><br>
+                </div>
+                <div class="number">
+                    <input id="number" name="number" type="text" placeholder="Phone Number"><br>
+                </div>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Submit</button>
+            </div>
+            <form>
+            </form>
         </div>
-        <div class="form-container">
-            <div class="name1">
-                <input type="text" placeholder="First Name"><br>
-            </div>
-            <div class="name2">
-                <input type="text" placeholder="Last Name"><br>
-            </div>
-            <div class="name3">
-                <input type="text" placeholder="Username"><br>
-            </div>
-            <div class="name4">
-                <input type="email" placeholder="Email" name="email" required><br>
-            </div>
-            <div class="name5">
-                <input type="password" placeholder="Password" minlength="8"><br>
-            </div>
-            <div class="name6">
-                <input type="password" placeholder="Confirm Password" minlength="8"><br>
-            </div>
-            <div class="name7">
-                <input type="text" placeholder="Phone Number"><br>
-            </div>
-        </div>
-        <div class="submit-button">
-            <button type="submit">Submit</button>
-        </div>
-        <form>
-        </form>
-    </div>
+    </form>
 </body>
 
 </html>
