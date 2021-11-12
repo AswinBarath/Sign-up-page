@@ -1,13 +1,12 @@
-# Sign-up-page
+# Sign up page
 
 <p>
-<img src="assets/Signup Page.png" alt="Signup Page" />
+<img src="assets/Signup Page Cover Design.png" alt="Signup Page Cover Design" />
 </p>
 
 A Customizable signup page
 
 ---
-
 
 ## Table of content
 
@@ -16,19 +15,15 @@ A Customizable signup page
 - [What's unique in this Project](#whats-unique-in-this-project)
 - [Contributors](#Contributors)
 
-
 ---
-
 
 ## Demo
 
 <p>
-<img src="assets/Signup Page.gif" alt="Signup Page" />
+<img src="assets/Signup Page Demo.gif" alt="Signup Page Demo" />
 </p>
 
-
 ---
-
 
 ## Technologies
 
@@ -39,9 +34,7 @@ A Customizable signup page
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 &nbsp;
 
-
 ---
-
 
 ## What's unique in this Project
 
@@ -52,10 +45,10 @@ A Customizable signup page
 
 ---
 
-
 ## Contributors
 
 - T Aswin Barath <https://github.com/AswinBarath>
 
-
 ---
+
+[**🔼 Back to Top**](#Sign-up-page)
